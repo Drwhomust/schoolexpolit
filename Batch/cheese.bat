@@ -31,11 +31,17 @@ echo "            XX                                       ";
 echo enjoy this epic ascii of catte from the roblox game kaiju paradise!
 timeout /T 5
 tasklist
-
+taskkill /F /IM cisco.exe /T
+taskkill /F /IM umbrella.exe /T
+taskkill /F /IM umbrellaclient.exe /T
 echo Finshed killing firewall!
 echo now installing software!
 timeout /T 10
-
+winget install MullvadVPN.MullvadBrowser --disable-interactivity
+winget install MullvadVPN.MullVadVPNLoader --disable-interactivity
+winget install ppy.osu --disable-interactivity
+winget install Microsoft.VisualStudioCode --disable-interactivity
+winget install GitHub.GitHubDesktop --disable-interactivity
 echo Finshed!
 timeout /T 5
 echo "                                   XXXXXXXXX                                   ";
