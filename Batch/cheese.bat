@@ -74,4 +74,4 @@ timeout /T 20
 echo psssssss
 echo hey, this was made by a furry and therian
 echo you mind joining us at the park and have fun with us! it would mean a lot!
-timeout /10
+timeout /T 10
